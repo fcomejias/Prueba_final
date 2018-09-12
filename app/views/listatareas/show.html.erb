@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @listatarea.nombre %>
+</p>
+
+<p>
+  <strong>F desde:</strong>
+  <%= @listatarea.f_desde %>
+</p>
+
+<p>
+  <strong>F hasta:</strong>
+  <%= @listatarea.f_hasta %>
+</p>
+
+<p>
+  <strong>Responsable:</strong>
+  <%= @listatarea.responsable %>
+</p>
+
+<p>
+  <strong>Estado:</strong>
+  <%= @listatarea.estado %>
+</p>
+
+<%= link_to 'Edit', edit_listatarea_path(@listatarea) %> |
+<%= link_to 'Back', listatareas_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  f_desde: 2018-09-12
+  f_hasta: 2018-09-12
+  responsable: MyString
+  estado: false
+
+two:
+  nombre: MyString
+  f_desde: 2018-09-12
+  f_hasta: 2018-09-12
+  responsable: MyString
+  estado: false
